@@ -23,3 +23,6 @@ test('10000005, 4, 5 is not triangle', () => {
 test('6.5, 4, 5 is not triangle', () => {
     expect(isRightTriangle(6.5, 4, 5)).toBe(false);
 });
+test('6.5, 4, 5 is not triangle', () => {
+    expect(isRightTriangle(6.5, 4, 5)).toBe(false);
+});

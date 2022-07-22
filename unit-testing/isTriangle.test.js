@@ -15,6 +15,4 @@ test(', 4, 5 is  not a triangle', () => {
     expect(isTriangle( 4, 5)).toBe(false);
 });
 
-test('A, 4, 5 is not atriangle', () => {
-    expect(isTriangle('A', 4, 5)).toBe(false);
-});
+
