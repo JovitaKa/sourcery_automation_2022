@@ -194,7 +194,7 @@ test.describe(version + 'Integers only option for results not available with Con
     
     await page.locator('#calculateButton').click();
     await page.locator('#integerSelect').click();
-    await expect(page.locator('#numberAnswerField')).toHaveValue('');
+    await expect(page.locator('#numberAnswerField')).toHaveValue('7A82c');
   });
 });
 
